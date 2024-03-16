@@ -1,0 +1,97 @@
+site_name: TechBlogs
+site_url: https://techblogs.org
+copyright: Copyright &copy; techblogs.org 2024
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      toc_depth: 2
+  - admonition
+  - tables
+  - codehilite
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - sane_lists
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+
+extra:
+  generator: false
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://www.googletagmanager.com/gtag/js?id=G-XYZX98MFG8
+
+plugins:
+  - blog:
+      post_date_format: full
+      post_excerpt: required
+  - glightbox
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+
+theme:
+  name: material
+  language: en
+#  favicon: images/favicon.svg
+#  logo: images/favicon.svg
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to dark mode
+      primary: teal
+      accent: teal
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/brightness-7
+        name: Switch to system preference
+      primary: teal
+      accent: teal
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: teal
+      accent: teal
+
+  features:
+    - navigation.indexes
+    - navigation.prune
+    - navigation.tabs
+    - navigation.top
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.footer
+    - toc.follow
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Blog:
+    - blog/index.md
+#    - blog/confluent-platform-basics.md
+  - Home: index.md
