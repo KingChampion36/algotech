@@ -1,1 +1,1 @@
-Start reading blogs [here](/blog/)
+Start reading blogs [here](blog/)
