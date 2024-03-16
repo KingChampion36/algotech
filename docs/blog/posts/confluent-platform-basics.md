@@ -19,7 +19,7 @@ Check out the official documentation of confluent [here](https://docs.confluent.
 
 Download confluent platform from confluent's official website [here](https://www.confluent.io/get-started/?product=self-managed)
 
-## Go the directory where Confluent Platform is downloaded
+## Go to the directory where Confluent Platform is downloaded
 
 ```shell
 cd directory/to/confluent/platform
