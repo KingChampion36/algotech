@@ -29,6 +29,15 @@ cd directory/to/confluent/platform
 bin/confluent local services start
 ```
 
+## Create a kafka topic
+
+```shell
+bin/kafka-topics \
+  --create \
+  --bootstrap-server localhost:9092 \
+  --topic local_test_topic
+```
+
 ## Installations
 
 **Note:** Make sure you already have `python3` and `pip` installed.
