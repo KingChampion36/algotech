@@ -12,5 +12,3 @@ See live website [here](https://kingchampion36.github.io/tech-blogs/blog/).
 ## Build and run locally
 
 See instructions [here](SETUP.md).
-
-
