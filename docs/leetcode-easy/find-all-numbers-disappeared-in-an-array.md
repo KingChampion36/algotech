@@ -29,6 +29,11 @@ class Solution {
 }
 ```
 
+!!! tip "Time and Space Complexities"
+
+    - **Time Complexity:** O(n)
+    - **Space Complexity:** O(n)
+
 ## Method 2 (Negating the existing numbers)
 
 ```java
@@ -53,4 +58,9 @@ class Solution {
   }
 }
 ```
+
+!!! tip "Time and Space Complexities"
+
+    - **Time Complexity:** O(n)
+    - **Space Complexity:** O(1) [Excluding the returned array]
 
