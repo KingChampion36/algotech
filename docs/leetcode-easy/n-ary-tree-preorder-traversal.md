@@ -1,6 +1,6 @@
 # N-ary Tree Preorder Traversal
 
-Link - [https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)
+### Link - [https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/){target="_blank"}
 
 ```java
 /*

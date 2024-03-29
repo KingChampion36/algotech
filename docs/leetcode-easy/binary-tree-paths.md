@@ -1,6 +1,6 @@
 # Binary Tree Paths
 
-Link - [https://leetcode.com/problems/binary-tree-paths/description/](https://leetcode.com/problems/binary-tree-paths/description/)
+### Link - [https://leetcode.com/problems/binary-tree-paths/description/](https://leetcode.com/problems/binary-tree-paths/description/){target="_blank"}
 
 ```java
 /**

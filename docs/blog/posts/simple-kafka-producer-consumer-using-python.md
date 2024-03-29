@@ -3,7 +3,7 @@ date: 2024-03-17
 description: >
   Simple Kafka Producer and Consumer Using Python
 categories:
-  - General
+  - Kafka
 ---
 
 # Simple Kafka Producer and Consumer using Python
