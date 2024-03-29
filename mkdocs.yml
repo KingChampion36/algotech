@@ -95,3 +95,6 @@ nav:
     - blog/index.md
 #    - blog/confluent-platform-basics.md
   - Home: index.md
+  - Leetcode:
+      - Easy:
+         - Disappeared Numbers in Array: leetcode-easy/find-all-numbers-disappeared-in-an-array.md
