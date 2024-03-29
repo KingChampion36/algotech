@@ -1,6 +1,6 @@
 # Find All Numbers Disappeared in an Array
 
-Link - [https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)
+### Link - [https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/){target="_blank"}
 
 ## Method 1 (Using visited array)
 

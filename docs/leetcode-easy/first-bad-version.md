@@ -1,6 +1,6 @@
 # First Bad Version
 
-Link - [https://leetcode.com/problems/first-bad-version/description/](https://leetcode.com/problems/first-bad-version/description/)
+### Link - [https://leetcode.com/problems/first-bad-version/description/](https://leetcode.com/problems/first-bad-version/description/){target="_blank"}
 
 ```java
 /* The isBadVersion API is defined in the parent class VersionControl.

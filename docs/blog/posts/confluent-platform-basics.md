@@ -4,20 +4,20 @@ date: 2024-03-16
 description: >
   Getting Started With Confluent Platform
 categories:
-  - General
+  - Kafka
 ---
 
 # Getting Started With Confluent Platform
 
 Confluent Platform is a full-scale streaming platform that enables you to easily access, store, and manage data as continuous, real-time streams.
 
-Check out the official documentation of confluent [here](https://docs.confluent.io/platform/current/platform.html).
+Check out the official documentation of confluent [here](https://docs.confluent.io/platform/current/platform.html){target="_blank"}.
 
 <!-- more -->
 
 ## Download Confluent Platform in your local
 
-Download confluent platform from confluent's official website [here](https://www.confluent.io/get-started/?product=self-managed)
+Download confluent platform from confluent's official website [here](https://www.confluent.io/get-started/?product=self-managed){target="_blank"}.
 
 ## Go to the directory where Confluent Platform is downloaded
 
@@ -96,7 +96,7 @@ telnet localhost 9092
 
 ## View the Control Center UI
 
-Control Center UI can be viewed at [http://localhost:9021](http://localhost:9021)
+Control Center UI can be viewed at [http://localhost:9021](http://localhost:9021){target="_blank"}.
 
 ## List kafka topics in the cluster
 
