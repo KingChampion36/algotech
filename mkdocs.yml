@@ -99,3 +99,4 @@ nav:
       - Easy:
          - Disappeared Numbers in Array: leetcode-easy/find-all-numbers-disappeared-in-an-array.md
          - First Bad Version: leetcode-easy/first-bad-version.md
+         - Binary Tree Paths: leetcode-easy/binary-tree-paths.md
