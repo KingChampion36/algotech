@@ -1,6 +1,6 @@
 # Ransom Note
 
-### Link - [https://leetcode.com/problems/ransom-note/](https://leetcode.com/problems/ransom-note/){target=_blank}
+### Link - [https://leetcode.com/problems/ransom-note/](https://leetcode.com/problems/ransom-note/){target="_blank"}
 
 ## Method 1 (Using 2 maps)
 
