@@ -4,6 +4,8 @@
 
 ## Method 1 (Using visited array)
 
+This solution first creates a boolean array to track visited numbers, then loops through the array to find the missing numbers, and returns a list containing those missing numbers.
+
 ```java
 class Solution {
   public List<Integer> findDisappearedNumbers(int[] nums) {
@@ -29,12 +31,21 @@ class Solution {
 }
 ```
 
+This code:
+
+- Creates a boolean array to mark which numbers are visited.
+- Iterates through the boolean array to find missing numbers.
+- Utilizes a separate method to create the boolean array, keeping the main method clean and focused.
+- The boolean array is used to mark visited numbers, enabling easy identification of missing numbers.
+
 !!! tip "Time and Space Complexities"
 
     - **Time Complexity:** O(n)
     - **Space Complexity:** O(n)
 
 ## Method 2 (Negating the existing numbers)
+
+This solution utilizes the property of the input array to mark visited numbers without using additional space.
 
 ```java
 class Solution {
@@ -58,6 +69,12 @@ class Solution {
   }
 }
 ```
+
+#### Explanation
+
+- **Marking Present Numbers:** It negates each number's index if it's positive to mark it as visited.
+- **Finding Missing Numbers:** It iterates through the array to find positive numbers, indicating missing numbers, and adds them to the answer list.
+- **Final Steps:** It returns the list containing all the disappeared numbers.
 
 !!! tip "Time and Space Complexities"
 
