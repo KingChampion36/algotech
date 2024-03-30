@@ -101,3 +101,4 @@ nav:
          - Binary Tree Paths: leetcode-easy/binary-tree-paths.md
          - N-ary Tree Preorder Traversal: leetcode-easy/n-ary-tree-preorder-traversal.md
          - Array Partition: leetcode-easy/array-partition.md
+         - Ransom Note: leetcode-easy/ransom-note.md
