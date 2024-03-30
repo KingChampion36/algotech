@@ -102,3 +102,4 @@ nav:
          - N-ary Tree Preorder Traversal: leetcode-easy/n-ary-tree-preorder-traversal.md
          - Array Partition: leetcode-easy/array-partition.md
          - Ransom Note: leetcode-easy/ransom-note.md
+         - Stack using Queues: leetcode-easy/implement-stack-using-queues.md
