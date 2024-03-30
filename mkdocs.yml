@@ -1,6 +1,6 @@
-site_name: KingChampion36@TechBlogs
-#site_url: https://techblogs.org
-copyright: Copyright &copy; KingChampion36@techblogs 2024
+site_name: AlgoTech
+site_url: https://algotech.in
+copyright: Copyright &copy; algotech.in 2024
 
 markdown_extensions:
   - toc:
