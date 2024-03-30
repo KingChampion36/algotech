@@ -43,6 +43,21 @@ class Solution {
 }
 ```
 
+### Explanation:
+
+*   **Finding All Paths**: The `binaryTreePaths` method is the entry point of the algorithm. It initializes a list to store paths and calls a recursive method to find all paths in the binary tree.
+
+*   **Recursive Path Building**: The `binaryTreePaths` method recursively builds the path string as it traverses the binary tree. It appends each node's value to the current path string and updates it accordingly.
+
+*   **Base Case**: If the current node is null, it means the path has reached its end, so the method returns.
+
+*   **Leaf Node Handling**: If the current node is a leaf node (both left and right children are null), it means a complete path is found, so it adds the path to the answer list.
+
+*   **Recursion**: It recursively traverses the left and right subtrees, passing the updated path string to each recursive call.
+
+
+This solution efficiently finds all paths in the binary tree by recursively traversing the tree and building paths as it goes.
+
 !!! tip "Time and Space Complexities"
 
     - **Time Complexity:** O(n)
