@@ -1,4 +1,4 @@
-# KingChampion36@TechBlogs
+# AlgoTech
 
 [build_icon]: https://github.com/KingChampion36/tech-blogs/actions/workflows/deploy.yml/badge.svg?branch=main
 [build_url]: https://github.com/KingChampion36/tech-blogs/actions/workflows/deploy.yml
