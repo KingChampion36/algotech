@@ -48,7 +48,7 @@ This solution efficiently determines whether `ransomNote` can be constructed usi
     - **Time Complexity:** O(n)
     - **Space Complexity:** O(n)
 
-### Method 2 (Using a single map)
+## Method 2 (Using a single map)
 
 ```java
 class Solution {
