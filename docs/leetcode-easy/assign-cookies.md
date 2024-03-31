@@ -57,8 +57,6 @@ class Solution {
 
 * **Returning Result**: After iterating through both arrays, it returns the count of content children.
 
-This implementation efficiently finds the maximum number of content children by iterating through both arrays simultaneously and assigning cookies to children based on their greed
-factors and available cookie sizes. Sorting the arrays beforehand ensures that the algorithm operates optimally.
 
 !!! tip "Time and Space Complexities"
 

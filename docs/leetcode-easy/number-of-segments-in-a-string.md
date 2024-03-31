@@ -50,8 +50,6 @@ class Solution {
 
 * **Returning Count**: Finally, it returns the count of segments in the string.
 
-This implementation accurately counts the number of segments in a string by iterating through it once and detecting segment boundaries based on space characters. It correctly
-handles cases where segments may be separated by multiple consecutive spaces and accounts for the last word even if it's not followed by a space.
 
 !!! tip "Time and Space Complexities"
 
