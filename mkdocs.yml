@@ -109,3 +109,4 @@ nav:
          - Merge two Binary Trees: leetcode-easy/merge-two-binary-trees.md
          - Word Pattern: leetcode-easy/word-pattern.md
          - Search in a Binary Search Tree: leetcode-easy/search-in-a-binary-search-tree.md
+         - Average of Levels in a Binary Tree: leetcode-easy/average-of-levels-in-binary-tree.md
