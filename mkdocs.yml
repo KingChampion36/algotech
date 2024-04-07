@@ -112,3 +112,4 @@ nav:
          - Average of Levels in a Binary Tree: leetcode-easy/average-of-levels-in-binary-tree.md
          - Root Equals Sum of Children: leetcode-easy/root-equals-sum-of-children.md
          - Evaluate Boolean Binary Tree: leetcode-easy/evaluate-boolean-binary-tree.md
+         - Find a Corresponding Node of a Binary Tree in a Clone of That Tree: leetcode-easy/corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.md
