@@ -50,8 +50,8 @@ class Solution {
 * **Recursive Search**: If the value is not found at the current root node, it decides whether to search in the left subtree or the right subtree based on a comparison between the
   target value and the current root node's value:
 
-  * If the target value is less than the current node's value (`root.val`), it recursively calls `searchBST` on the left subtree (`root.left`).
-  * If the target value is greater than the current node's value, it recursively calls `searchBST` on the right subtree (`root.right`).
+    * If the target value is less than the current node's value (`root.val`), it recursively calls `searchBST` on the left subtree (`root.left`).
+    * If the target value is greater than the current node's value, it recursively calls `searchBST` on the right subtree (`root.right`).
 
 * **Return Value**: The method returns the result of the recursive call, which will eventually return either the node with the target value or null if the value is not found in the
   tree.
