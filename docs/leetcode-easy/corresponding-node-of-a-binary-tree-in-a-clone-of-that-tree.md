@@ -44,22 +44,19 @@ class Solution {
 
 ### Explanation
 
-*   **Method Signature**:
-
-  *   The `getTargetCopy` method initializes `answer` and calls the recursive helper function `targetCopy` to find the corresponding node in the cloned tree.
+* **Method Signature**:
+    * The `getTargetCopy` method initializes `answer` and calls the recursive helper function `targetCopy` to find the corresponding node in the cloned tree.
 
 * **Recursive Helper Function (`targetCopy`)**:
-
-  *   This function takes three parameters: `original` (current node in the original tree), `cloned` (current node in the cloned tree), and `target` (target node in the original tree).
-  *   Base Case:
-    *   If either `cloned` or `original` is `null`, return without further processing.
-  *   If the current node in the `cloned` tree matches the target node (`target`), update `answer` to this node.
-  *   Recursively call `targetCopy` for the left and right children of both `original` and `cloned` trees to continue the search.
+    * This function takes three parameters: `original` (current node in the original tree), `cloned` (current node in the cloned tree), and `target` (target node in the original tree).
+    * Base Case:
+        * If either `cloned` or `original` is `null`, return without further processing.
+    * If the current node in the `cloned` tree matches the target node (`target`), update `answer` to this node.
+    * Recursively call `targetCopy` for the left and right children of both `original` and `cloned` trees to continue the search.
 
 * **Returning Result**:
-
-  *   After the recursive traversal completes, `answer` holds the reference to the corresponding node in the cloned tree that matches the target node.
-  *   Return `answer` as the result of the function.
+    * After the recursive traversal completes, `answer` holds the reference to the corresponding node in the cloned tree that matches the target node.
+    * Return `answer` as the result of the function.
 
 !!! tip "Time and Space Complexities"
 
