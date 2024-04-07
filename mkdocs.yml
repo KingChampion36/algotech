@@ -113,3 +113,4 @@ nav:
          - Root Equals Sum of Children: leetcode-easy/root-equals-sum-of-children.md
          - Evaluate Boolean Binary Tree: leetcode-easy/evaluate-boolean-binary-tree.md
          - Find a Corresponding Node of a Binary Tree in a Clone of That Tree: leetcode-easy/corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.md
+         - Leaf Similar Trees: leetcode-easy/leaf-similar-trees.md
