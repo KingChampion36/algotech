@@ -63,7 +63,6 @@ class Solution {
 * **Level Order Traversal**: It performs level order traversal of the binary tree using a queue (`Q`). It starts by adding the root node to the queue.
 
 * **Processing Each Level**: While the queue is not empty, it processes each level:
-
     * It gets the number of nodes in the current level (`nodesInCurrentLevel`) and initializes a sum to store the sum of values of nodes in the current level.
     * It iterates through the nodes in the current level, calculates the sum of their values, and adds their children to the queue for the next level.
     * After processing all nodes in the current level, it calculates the average value of nodes in that level and adds it to the list of averages.

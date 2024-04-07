@@ -53,14 +53,11 @@ class Solution {
 ### Key Points:
 
 * **Base Case Handling**:
-
     * The method handles the base case where the `root` node is `null`, ensuring that an empty tree is considered valid.
 
 * **Leaf Node Handling**:
-
     * Leaf nodes are identified based on the absence of children (`left` and `right` are both `null`).
     * The boolean value (`true` or `false`) of a leaf node is determined by its `val` property (`0` for `false`, `1` for `true`).
 
 * **Non-leaf Node Handling**:
-
     * Non-leaf nodes (`2` for OR, `3` for AND) recursively evaluate their children and apply the corresponding boolean operation (`||` or `&&`) to determine their boolean value.
